@@ -1,3 +1,4 @@
-window.addEventListener('load',function(event){
+window.addEventListener('load', function(event){
     menu();
+
 })
