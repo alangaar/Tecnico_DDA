@@ -1,0 +1,17 @@
+Tarea-Clase 1
+
+1 Realizar un Formulario que acepte 2 numeros y que pueda calcular 
+  la suma de estos
+
+2 Realizar un Formulario que acepte 2 numeros y que muestre los
+  numeros que estan en el rango de los valores digitados
+
+3 Hacer un programa que acepte un frase y luego muestre lo siguiente:
+
+  a Cantidad de caracteres que tiene la frase
+  b Cantidad de palabras
+  c Cantidad de vocales
+  d Cantidad de consonantes
+  e Cambio de vocales por numeros
+  f Cambio de formato mayuscula-minuscula
+  
