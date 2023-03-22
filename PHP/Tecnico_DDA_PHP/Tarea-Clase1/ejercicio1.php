@@ -4,8 +4,8 @@ $n1 = '';
 $n2 = '';
 
 if($_POST){
-    $n1 = $_POST['txtN1'];
-    $n2 = $_POST['txtN2'];
+    $n1 = $_POST['primer_numero'];
+    $n2 = $_POST['segundo_numero'];
     $suma = $n1+$n2;
 }
 
@@ -16,16 +16,19 @@ if($_POST){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Ejercicio 1</title>
-    <style>
-        input {margin:5px}
-    </style>
+
 </head>
 <body>
+
+    <h3>CALCULAR LA SUMA DE 2 NUMEROS EN PHP</h3>
     <form action="ejercicio1.php" method="post">
-        <input value="<?php echo $n1;?>" type="number" placeholder="Numero 1" name="txtN1"><br>
-        <input value="<?php echo $n2;?>" type="number" placeholder="Numero 2" name="txtN2"><br>
-        <button type="submit">Calcular</button>        
+        <input value="<?php echo $n1; ?>" require type="number" name="primer_numero" placeholder="primer numero"> <br>
+        <br>
+        <input value="<?php echo $n2 ; ?>" require type="number" name = "segundo_numero" placeholder="segundo numero"><br>
+        <br>
+        <button type="submit">Calcular</button>
         <button onclick="nuevo();" type="button">Limpiar</button>
    <hr>
         resultado: <label><?php echo $suma?></label>
@@ -39,5 +42,7 @@ if($_POST){
             }
         }
     </script>
+
+    
 </body>
 </html>
