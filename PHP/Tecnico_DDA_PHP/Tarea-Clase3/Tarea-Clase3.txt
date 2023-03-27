@@ -1,0 +1,16 @@
+Tarea-clase 3 
+
+*realizar un formulario que capture los siguientes datos:
+
+1.Nombre
+2.Apellido
+3.Sexo
+4.Cedula
+5.Direccion
+6.Telefono
+7.Fecha de Nacimiento
+8.Email
+
+
+*guardarlo en en archivo 
+*mostrar datos en la pagina
