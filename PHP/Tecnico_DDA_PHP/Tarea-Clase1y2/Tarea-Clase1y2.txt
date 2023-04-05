@@ -12,6 +12,6 @@ Tarea-Clase 1
   b Cantidad de palabras
   c Cantidad de vocales
   d Cantidad de consonantes
-  e Cambio de vocales por numeros
+  e Cambio de vocales por numeros(a=4, e=3, i=1, o=0, u=7)
   f Cambio de formato mayuscula-minuscula
   
